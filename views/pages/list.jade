@@ -10,18 +10,18 @@ block content
             th 导演
             th 国家
             th 上映时间
-            th 录入时间
+            //- th 录入时间
             th 查看
             th 更新
             th 删除
         tbody
           each item in movies
-            tr(class="item-id-#{item_id}")
+            tr(class="item-id-#{item._id}")
               td #{item.title}
               td #{item.doctor}
               td #{item.country}
               td #{item.year}
-              td #{moment(item.meta.createdAt).format('MM/DD/YYY')}
+              //- td #{moment(item.meta.createdAt).format('MM/DD/YYY')}
               td: a(target="_blank",href="../movie/#{item._id}") 查看
               td: a(target="_blank",href="../admin/update/#{item._id}") 修改
               td
