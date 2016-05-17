@@ -1,20 +1,22 @@
 {
-  "name": "movienets",
-  "description": "movie website",
-  "main": "app.js",
-  "authors": [
-    "Aaron <ly1992@qq.com>"
-  ],
-  "license": "ISC",
+  "name": "n-movie-website",
   "homepage": "https://github.com/Mrlilili/n-movie-website",
+  "authors": [
+    "Aaron"
+  ],
+  "description": "node movie website",
+  "main": "",
+  "license": "Mit",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "public/libs",
     "test",
     "tests"
   ],
   "dependencies": {
+    "jquery": "1.9.1 - 2",
     "bootstrap": "^3.3.6"
   }
 }

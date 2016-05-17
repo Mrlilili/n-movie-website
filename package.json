@@ -1,20 +1,28 @@
 {
-  "name": "movienets",
+  "name": "n-movie-website",
   "version": "1.0.0",
-  "description": "movie website",
+  "description": "node movie website",
   "main": "app.js",
   "dependencies": {
-    "body-parser": "^1.15.1",
     "express": "^4.13.4",
-    "jade": "^1.11.0",
-    "moment": "^2.13.0",
     "mongoose": "^4.4.16",
-    "underscore": "^1.8.3"
+    "jade": "^1.11.0",
+    "body-parser": "^1.15.1",
+    "underscore": "^1.8.3",
+    "moment": "^2.13.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrlilili/n-movie-website.git"
+  },
+  "author": "aaron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mrlilili/n-movie-website/issues"
+  },
+  "homepage": "https://github.com/Mrlilili/n-movie-website#readme"
 }
